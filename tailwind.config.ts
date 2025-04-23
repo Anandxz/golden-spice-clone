@@ -18,7 +18,21 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				playfair: ['Playfair Display', 'serif'],
+				poppins: ['Poppins', 'sans-serif'],
+			},
 			colors: {
+				turmeric: {
+					gold: '#e9b949',
+					orange: '#e67e22',
+					darkOrange: '#d35400',
+					cream: '#f9f3e6',
+					beige: '#e8e0d0',
+					green: '#4a6741',
+					darkGreen: '#1e352f',
+					lightGreen: '#a4be7b',
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
